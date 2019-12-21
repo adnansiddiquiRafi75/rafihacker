@@ -1,0 +1,435 @@
+function hello()
+gg.setVisible(true)
+HH = gg.alert("☠ Script PUBG Mobile 0.16.0 ☠\n➳ Version: 1.0\n➳🔥Coded By 𝐴𝑑𝑛𝑎𝑛 𝑆𝑖𝑑𝑑𝑖𝑞𝑢𝑖🔥\n\n©𝟐𝟎𝟏𝟗 𝐀𝐝𝐧𝐚𝐧 𝐒𝐢𝐝𝐝𝐢𝐪𝐮𝐢 - 𝐀𝐥𝐥 𝐑𝐢𝐠𝐡𝐭𝐬 𝐑𝐞𝐬𝐞𝐫𝐯𝐞𝐝.", "⟬NEXT⟭")
+end
+HOME = 1
+function HOME()
+MN = gg.choice({
+	"✧ Wᴀʟʟʜᴀᴄᴋ ",
+	"✧ CᴏʟᴏᴜʀHᴀᴄᴋ Yᴇʟʟᴏᴡ ",
+	"✧ Hᴇᴀʟᴛʜ Hᴀᴄᴋ ",
+	"✧ 𝑴𝒐𝒓𝒆 𝑯𝒂𝒄𝒌𝒔 ",
+	"❌𝗘𝘅𝗶𝘁❌"
+	},nil,"☠ Script PUBG Mobile 0.16.0 ☠\n➳ Version: 1.0\n➳🔥Coded By 𝐴𝑑𝑛𝑎𝑛 𝑆𝑖𝑑𝑑𝑖𝑞𝑢𝑖🔥\n\n©𝟐𝟎𝟏𝟗 𝐀𝐝𝐧𝐚𝐧 𝐒𝐢𝐝𝐝𝐢𝐪𝐮𝐢 - 𝐀𝐥𝐥 𝐑𝐢𝐠𝐡𝐭𝐬 𝐑𝐞𝐬𝐞𝐫𝐯𝐞𝐝.")
+	if MN == nil then
+	else
+	if MN == 1 then
+	Wallhack()
+	end
+	if MN == 2 then
+	ColourHack()
+	end
+	if MN == 3 then
+	uhp()
+	end
+	if MN == 4 then
+	more()
+	end
+	if MN == 5 then
+	Exit()
+	end
+end
+	PUBGMH = -1
+end
+function Wallhack()
+  gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('3.5873241e-43;0.5;360;360;760;760;1;1;1;1;1;1;1::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll('0', gg.TYPE_FLOAT)
+gg.getResults(100)
+gg.clearResults()
+gg.searchNumber('56;64;48::35', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('56', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('47', gg.TYPE_DWORD)
+gg.toast("☬Wallhack Activated☬")
+end
+function ColourHack()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("802,824,192;48;937,041,920;40;736,370,688;32;802,824,192;48;802,824,192;16;802,824,192;2;2::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("36", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("☬Color Hack Yellow Activated☬ ")
+end
+function uhp()
+gg.clearResults()
+gg.searchNumber("1.0F;0.6;0.1;0.125::55", 16, false, 536870912, 0, -1)
+gg.searchNumber("1", 16, false, 536870912, 0, -1)
+gg.getResults(300)
+gg.editAll("999999", 16)
+gg.clearResults()
+gg.setRanges(64)
+gg.searchNumber("200;220;250;200~250 ::", 2, false, 536870912, 0, -1)
+gg.refineNumber("200;220;250", 2)
+gg.getResults(999)
+gg.editAll("16000", 2)
+gg.searchNumber("16000", 2, false, 536870912, 0, -1)
+gg.getResults(300)
+gg.editAll("16000", 2)
+gg.clearResults()
+gg.toast("☬ Health Hack Activated ☬")
+end
+function more()
+MN1 = gg.multiChoice({
+	"✧ Aɴᴛᴇɴɴᴀ Pʟᴀʏᴇʀ [Lᴏʙʙʏ]",
+	"✧ Hɪɢʜ Jᴜᴍᴘ Nᴏ Dᴀᴍᴀɢᴇ [Gᴀᴍᴇ]",
+	"✧ Nᴏ Rᴇᴄᴏɪʟ [Options]",
+	"✧ Aᴜᴛᴏ HᴇᴀᴅSʜᴏʀᴛ 99% [Gᴀᴍᴇ]",
+	"✧ Mᴀɢɪᴄʙᴜʟʟᴇᴛ 99% [Gᴀᴍᴇ]", 
+	"✧ Sᴘᴇᴇᴅ Hᴀᴄᴋs [ON/OFF]",
+	"✧ Hɪɢʜ Dᴀᴍᴀɢᴇ [Gᴀᴍᴇ]",
+	"✧ AɪᴍBᴏᴛ 100M [Lᴏʙʙʏ]",
+	"✧ AɪᴍBᴏᴛ Ultra [Gᴀᴍᴇ]",
+	"✧ Aɪᴍʟᴏᴄᴋ [Gᴀᴍᴇ]",
+	"🔙𝘽𝙖𝙘𝙠🔙 "
+	},nil,"☠ Script PUBG Mobile 0.16.0 ☠\n➳ Version: 1.0\n➳🔥Coded By 𝐴𝑑𝑛𝑎𝑛 𝑆𝑖𝑑𝑑𝑖𝑞𝑢𝑖🔥\n\n©𝟐𝟎𝟏𝟗 𝐀𝐝𝐧𝐚𝐧 𝐒𝐢𝐝𝐝𝐢𝐪𝐮𝐢 - 𝐀𝐥𝐥 𝐑𝐢𝐠𝐡𝐭𝐬 𝐑𝐞𝐬𝐞𝐫𝐯𝐞𝐝.")
+	if MN1 == nil then
+	else
+    if MN1[1] == true then
+	antenna()
+	end
+	if MN1[2] == true then
+	Highjump()
+	end
+	if MN1[3] == true then
+	Norecoil()
+	end
+	if MN1[4] ==  true then
+	HS()
+	end
+	if MN1[5] == true then
+	magic()
+	end
+	if MN1[6] == true then
+	speed()
+	end
+	if MN1[7] == true then
+	highdam()
+	end
+	if MN1[8] == true then
+	aimbot200m()
+	end
+	if MN1[9] == true then
+	aimbotultra()
+	end
+	if MN1[10] == true then
+	aimlock()
+	end
+	if MN1[11] == true then
+	HOME()
+	end
+	end
+	PUBGMH = -1
+end
+function antenna()
+gg.clearResults()
+  gg.setRanges(32)
+  gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", 16, false, 536870912, 0, -1)
+  gg.searchNumber("88.50576019287F;87.27782440186F;1F", 16, false, 536870912, 0, -1)
+  gg.getResults(6)
+  gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", 16)
+  gg.clearResults()
+  gg.clearResults()
+  gg.setRanges(32)
+  gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", 16, false, 536870912, 0, -1)
+  gg.searchNumber("88.50576019287F;87.27782440186F;1F", 16, false, 536870912, 0, -1)
+  gg.getResults(6)
+  gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", 16)
+  gg.clearResults()
+  gg.toast("☬Antena Player Activated☬ ")
+gg.clearResults()
+end
+function Highjump()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("34", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("3", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("443", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("3C", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("2500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("☬High Jump Activated☬")
+end
+function Norecoil()
+NR = gg.choice({
+	" No recoil [Lobby] ",
+	" No recoil [Game] ",
+	"🔙𝘽𝙖𝙘𝙠🔙 "
+	},nil,"☠ Script PUBG Mobile 0.16.0 ☠\n➳ Version: 1.0\n➳🔥Coded By 𝐴𝑑𝑛𝑎𝑛 𝑆𝑖𝑑𝑑𝑖𝑞𝑢𝑖🔥\n\n©𝟐𝟎𝟏𝟗 𝐀𝐝𝐧𝐚𝐧 𝐒𝐢𝐝𝐝𝐢𝐪𝐮𝐢 - 𝐀𝐥𝐥 𝐑𝐢𝐠𝐡𝐭𝐬 𝐑𝐞𝐬𝐞𝐫𝐯𝐞𝐝.")
+	if NR == nil then
+	else
+	if NR == 1 then
+	nrl()
+	end
+	if NR == 2 then
+	nrg()
+	end
+	if NR == 3 then
+	more()
+	end
+	end
+	PUBGMH = -1
+	end
+function nrg()
+gg.clearResults()
+    gg.setRanges(8)
+    gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
+    gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
+    gg.getResults(1)
+    gg.editAll("0", 16)
+    gg.clearResults()
+    gg.setRanges(8)
+    gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", 16, false, 536870912, 0, -1)
+    gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+    gg.getResults(1)
+    gg.editAll("0", 16)
+    gg.clearResults()
+    gg.setRanges(8)
+    gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", 16, false, 536870912, 0, -1)
+    gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+    gg.getResults(1)
+    gg.editAll("0", 16)
+    gg.clearResults()
+    gg.setRanges(8)
+    gg.searchNumber("-1.238.624e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-    7.1608877e24::", 16, false, 536870912, 0, -1)
+    gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+    gg.getResults(2)
+    gg.editAll("90", 16)
+    gg.clearResults()
+gg.toast("☬No recoil [Gᴀᴍᴇ] Activated☬")
+end
+function nrl()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(800)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-3.7444097e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-1.238.624e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-    7.1608877e24::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("90", gg.TYPE_FLOAT)
+  gg.toast("☬ No Recoil [Lobby] Activated ☬")
+end
+function HS()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("300", gg.TYPE_FLOAT)
+  gg.toast("☬ Auto Headshot 99% Activated ☬")
+end
+function magic()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("15.0F;28.0F;16.0F;26.0F;8.0F;18.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("95", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;16.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("240", gg.TYPE_FLOAT)
+  gg.toast("☬ Magic Bullet 99% Activated ☬")
+end
+function speed()
+gg.alert("🇳 🇴 🇹 🇪➖\n\n\n🚫𝘿𝙤𝙣'𝙩 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙝𝙖𝙘𝙠 𝙞𝙣 𝙩𝙝𝙚 𝙬𝙝𝙤𝙡𝙚 𝙜𝙖𝙢𝙚🚫\n\n✅𝐔𝐬𝐞 𝐭𝐡𝐢𝐬 𝐡𝐚𝐜𝐤 𝐰𝐡𝐞𝐧 𝐢𝐭’𝐬 𝐧𝐞𝐞𝐝𝐞𝐝✅", "⟬NEXT⟭")
+MN2 = gg.multiChoice({
+	"✧ Sᴘᴇᴇᴅ Rᴜɴ [ON]",
+    "✧ S̸p̸e̸e̸d̸ R̸u̸n̸ [Off]",
+    "✧ Sᴘᴇᴇᴅ Cᴀʀ [ON]",
+    "✧ S̸p̸e̸e̸d̸ C̸a̸r̸ [OFF]",
+    "🔙𝘽𝙖𝙘𝙠🔙"
+    },nil,"☠ Script PUBG Mobile 0.16.0 ☠\n➳ Version: 1.0 💀〔BRUTAL〕💀\n➳🔥Coded By 𝐴𝑑𝑛𝑎𝑛 𝑆𝑖𝑑𝑑𝑖𝑞𝑢𝑖🔥\n\n©𝟐𝟎𝟏𝟗 𝐀𝐝𝐧𝐚𝐧 𝐒𝐢𝐝𝐝𝐢𝐪𝐮𝐢 - 𝐀𝐥𝐥 𝐑𝐢𝐠𝐡𝐭𝐬 𝐑𝐞𝐬𝐞𝐫𝐯𝐞𝐝.")
+    if MN2 == nil then
+    else
+    if MN2[1] == true then
+    spON()
+    end
+    if MN2[2] == true then
+    spOFF()
+    end
+    if MN2[3] == true then
+    spcaron()
+    end
+    if MN2[4] == true then
+    spcaroff()
+    end
+    if MN2[5] == true then
+    more()
+    end
+  end
+   PUBGMH = -1
+end
+function spON()
+gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-8.795458e22;-3.693674e20;-1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("1.2382424e28", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-6.1526231e27;-1.0070975e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-6.1526231e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("☬ Speed Run Activated ☬")
+end
+function spOFF()
+ gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("-8.795458e22;-3.693674e20;1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("-1.2382424e28", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("0;-1.0070975e28::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("-6.1526231e27", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("☬ Speed Run Deactivated ☬")
+end
+function highdam()
+gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EGUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("8000", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("☬High Damage Activated☬")
+end
+function spcaron()
+gg.clearResults()
+      gg.setRanges(gg.REGION_ANONYMOUS)
+      gg.searchNumber( "1000;10;4D;4D;50;5;2;0.01::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      gg.refineNumber( "0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      gg.getResults(280)
+      gg.editAll( "-0.23", gg.TYPE_FLOAT)
+      gg.clearResults()
+      gg.toast("☬ Speed Car Activated ☬")
+end
+function spcaroff()
+gg.clearResults()
+      gg.setRanges(gg.REGION_ANONYMOUS)
+      gg.searchNumber( "1000;10;4D;4D;50;5;2;-0.23::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      gg.refineNumber( "-0.23", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      gg.getResults(280)
+      gg.editAll( "0.01", gg.TYPE_FLOAT)
+      gg.clearResults()
+      gg.toast("☬ Speed Car Deactivated ☬")
+end
+function aimbot200m()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+      gg.toast("☬ AimBot 200M Activated ☬ ")
+end
+function aimlock()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("☬ AimLock Activated ☬")
+end
+function aimbotultra()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("999999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
+  gg.getResults(200)
+  gg.editAll("999999999", gg.TYPE_FLOAT)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("6.0;2.0;1.0::99", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("101", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
+  gg.getResults(200)
+  gg.editAll("999999999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("☬ Aimbot Ultra ☬")
+end
+function Exit()
+print("☠ Script PUBG Mobile 0.16.0 ☠\n➳ Version: 1.0\n➳🔥Coded By 𝐴𝑑𝑛𝑎𝑛 𝑆𝑖𝑑𝑑𝑖𝑞𝑢𝑖🔥\n\n©𝟐𝟎𝟏𝟗 𝐀𝐝𝐧𝐚𝐧 𝐒𝐢𝐝𝐝𝐢𝐪𝐮𝐢 - 𝐀𝐥𝐥 𝐑𝐢𝐠𝐡𝐭𝐬 𝐑𝐞𝐬𝐞𝐫𝐯𝐞𝐝.")
+gg.skipRestoreState()
+gg.setVisible(true)
+os.exit()
+end
+hello()
+while true do
+if gg.isVisible(true) then
+PUBGMH = 1
+gg.setVisible(false)
+end
+if PUBGMH == 1 then
+HOME ()
+end
+end
